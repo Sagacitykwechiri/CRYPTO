@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referred Users</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body>
+    <header class="sticky-top header bg-info">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="Media/icon/SagacityLogo-dark.PNG" alt="Logo" width="250" height="70" class="d-inline-block align-text-top">
+            </a>
+        <!-- <div>
+    <div id="google_translate_element" class=""></div>
+        </div> -->
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse fw-bold" id="navbarNav">
+                <ul class="navbar-nav m-auto fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link active1" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Deposit & Invest</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Withdraw</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Transactions</a>
+                    </li>
+                    
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="referralDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Referral
+                  </a>
+             <ul class="dropdown-menu" aria-labelledby="referralDropdown">
+              <li><a class="dropdown-item" href="#">Referred Users</a></li>
+                <li><a class="dropdown-item" href="#">Referral Commission</a></li>
+            </ul>
+                    </li>
+
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="referralDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Account
+                  </a>
+             <ul class="dropdown-menu" aria-labelledby="referralDropdown">
+              <li><a class="dropdown-item" href="#">Profile Setting</a></li>
+                <li><a class="dropdown-item" href="#">Transfer Balance</a></li>
+                <li><a class="dropdown-item" href="#">Change Password</a></li>
+                <li><a class="dropdown-item" href="#">Support Ticket</a></li>
+                <li><a class="dropdown-item" href="#">2FA Security</a></li>
+                <li><a class="dropdown-item" href="#">Log out</a></li>
+            </ul>
+                    </li>
+
+                    
+                </ul>
+                
+                <ul class="custom-navbar-user navbar-nav mb-2 mb-md-0 ms-5">
+                    <li><a class="nav-link" href="#"><i class="las la-user text-light fs-1 bg-dark rounded-circle"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+</header> 
+<!-- DASHBOARD LANDING SECTION*** -->
+<section class="dashboard-section video-bg">
+    <video autoplay muted loop id="myVideo" src="Media/videos/crypto-enhance (1).mp4" type="vdeo/mp4">Your browser do not support HTML5 video</video>
+    <div class="container  content">
+        <div class="row ">
+            <div class="col-md-3 pt-5 bg-dark bg-opacity-50 text-light text-center rounded rounded-circle">
+                <h1 class="">My Referred Users</h1>
+                <P class="fs-5 fw-bold"><a href="index.html">Home</a> - My Referred Users</P>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- DASHBOARD LANDING SECTION*** -->
+
+<!-- DASHBOARD WIDGET SECTION** -->
+<section class="bg-dark py-5 ">
+    <div class="container border bg-dark py-4">
+        <div class="row ">
+            <div class="col-md-12">
+               
+               
+<!-- widget 4 Table** -->
+<div class="row my-5">
+    <div class="col-md-12">
+        <div class="table-responsive rounded-4">
+            <table class="table table-hover">
+                <thead class="table-info text-center ">
+                    <tr>
+                       <th>SL</th> 
+                       <th>FullName</th> 
+                       <th>Joined at</th> 
+                      
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="100%" class="text-center p-3 fs-4 rounded-bottom-4 ">No Referral</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- widget 4 Table end** -->
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- DASHBOARD WIDGET SECTION** -->
+
+<!-- DASHBOARD FOOTER** -->
+<footer class="dashboard-footer bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr class="border">
+                <p class="text-light text-center fs-5">@ 2024 $aga-Trade Capital. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!-- DASHBOARD FOOTER** -->
+
+
+
+ <!-- Bootstrap JS (Optional for some features) -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+ <script>
+         window.addEventListener('scroll', function() {
+         var header = document.querySelector('.header');
+         if (window.scrollY > 100) { // Change 50 to the scroll position you want
+             header.classList.add('scrolled');
+         } else {
+             header.classList.remove('scrolled');
+         }
+     });
+
+ </script>
+
+
+
+  <!-- copied to clipboard** -->
+  <script>
+  document.getElementById('copyBtn').addEventListener('click', function () {
+    // Copying to clipboard logic (example for copying a static value)
+    const textToCopy = "Sample text to copy";
+    navigator.clipboard.writeText(textToCopy).then(function() {
+        // Show the small 'Copied to clipboard' message
+        const copiedMessage = document.getElementById('copiedMessage');
+        copiedMessage.style.display = 'inline';  // Show the message
+
+        // Optionally hide the message after a few seconds
+        setTimeout(function() {
+            copiedMessage.style.display = 'none';  // Hide the message after 2 seconds
+        }, 2000);
+    }).catch(function() {
+        alert("Failed to copy text!");
+    });
+});
+</script>
+</body>
+</html>
